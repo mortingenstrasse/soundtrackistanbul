@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8Bit Orchestra - Retro Game Console Synthesizer | Soundtrackistanbul</title>
+    <meta name="description" content="8Bit Orchestra is a synthesizer that brings the nostalgic sounds of Sega Genesis, Atari, and Nintendo systems to modern production environments. Free download available.">
+    <meta name="keywords" content="8 bit orchestra plugin, retro game audio, chiptune synthesizer, sega genesis sounds, nintendo sound synthesis, free audio plugin, orchestral chiptune, game music production">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>soundtrackistanbul</h1>
+                <p>Audio Programming</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#products">Products</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="#contact" class="btn-coffee"><i class="fa-solid fa-mug-hot"></i> Buy Me a Coffee</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+        </header>
+        
+        <div class="back-button">
+            <a href="index.html"><i class="fa-solid fa-arrow-left"></i> BACK</a>
+        </div>
+        
+        <section class="product-details">
+            <div class="product-image">
+                <img src="images/product-image1.jpg" alt="8Bit Orchestra Plugin Interface" class="animate-fade-in">
+            </div>
+            <div class="product-info">
+                <h2>8Bit Orchestra</h2>
+                <p>A synthesizer designed to evoke the sounds of retro game consoles such as the Sega Genesis, Atari, and Nintendo systems. It offers orchestral-inspired presets including strings, woodwinds, brass, and percussion.</p>
+                <p>Each preset comes with sustain and legato options. Although articulations like staccato and spiccato are not included, you can simulate them by choosing the sustain preset and setting the release parameter to its shortest value.</p>
+                <p>The plugin includes two separate sound engines. Each has five different waveform options, full ADSR controls, and a slider that allows you to blend the two sounds freely. This tool is ideal for chiptune compositions and is available for free download.</p>
+                
+                <div class="download-options">
+                    <h3>Download Options</h3>
+                    <a href="https://forms.gle/U5Qs1JYrittjnDF8A" class="btn-download"><i class="fab fa-apple"></i> AU Format</a>
+                    <a href="https://forms.gle/XTX5NM61pYeodWCk7" class="btn-download"><i class="fa-solid fa-plug"></i> VST3 Format</a>
+                    <a href="https://forms.gle/4fSw3Lf978NpUCLT9" class="btn-download"><i class="fa-solid fa-desktop"></i> Standalone App</a>
+                </div>
+                
+                <a href="https://buymeacoffee.com/soundtrackistanbul" class="btn-coffee"><i class="fa-solid fa-mug-hot"></i> Buy Me a Coffee</a>
+            </div>
+        </section>
+        
+        <section class="installation" id="installation">
+            <h3>How to install?</h3>
+            <p>The 8bit Orchestra plugin is available in AU, VST3, and standalone formats. Here is how to install and use it on macOS.</p>
+            
+            <div class="installation-steps">
+                <div class="step">
+                    <h4><i class="fa-solid fa-1"></i> Installation</h4>
+                    <p>After downloading the plugin package, you will see the following files:</p>
+                    <ul>
+                        <li><code>8BitOrchestra.component</code> (AU)</li>
+                        <li><code>8BitOrchestra.vst3</code> (VST3)</li>
+                        <li><code>8BitOrchestra.app</code> (Standalone)</li>
+                    </ul>
+                    <p>To install, copy the files into their respective directories:</p>
+                    <ul>
+                        <li>AU: <code>/Library/Audio/Plug-Ins/Components/</code></li>
+                        <li>VST3: <code>/Library/Audio/Plug-Ins/VST3/</code></li>
+                        <li>Standalone: You can place the app file anywhere you like, such as your Applications folder.</li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <h4><i class="fa-solid fa-2"></i> macOS Security Notice</h4>
+                    <p>On some macOS systems, especially newer ones, you may encounter a warning that the plugin cannot be opened because it is from an unidentified developer. In some cases, macOS may even prevent the plugin from loading due to its security quarantine flag. If that happens, open Terminal and run the following command:</p>
+                    <div class="code-block">
+                        <pre><code>sudo xattr -rd com.apple.quarantine /Library/Audio/Plug-Ins/Components/8BitOrchestra.component</code></pre>
+                    </div>
+                    <p>You can do the same for the VST3 version by replacing the path accordingly. This command removes the quarantine flag and allows your system to load the plugin without issues. You may be asked to enter your password.</p>
+                </div>
+                
+                <div class="step">
+                    <h4><i class="fa-solid fa-3"></i> Using the Plugin</h4>
+                    <p>Once installed, you can open your preferred DAW and scan for new plugins. Look for "8bit Orchestra" in your instrument list. You can also launch the standalone version directly without needing a DAW.</p>
+                    <p>If you experience any issues, please feel free to contact me. I am actively maintaining the plugin and open to feedback.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="included" id="included">
+            <h3>What is included?</h3>
+            <div class="feature-list">
+                <div class="feature">
+                    <i class="fa-solid fa-waveform"></i>
+                    <h4>Retro Console Sounds</h4>
+                    <p>Authentic sound engine inspired by Sega Genesis, Atari, and Nintendo systems.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fa-solid fa-music"></i>
+                    <h4>Orchestral Presets</h4>
+                    <p>Includes strings, woodwinds, brass, and percussion with both sustain and legato options.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fa-solid fa-sliders"></i>
+                    <h4>Dual Sound Engine</h4>
+                    <p>Two separate sound engines with five waveform options each and full ADSR controls.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fa-solid fa-gauge-simple-high"></i>
+                    <h4>Performance Optimized</h4>
+                    <p>Designed for minimal CPU and memory usage while delivering high-quality sound.</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 soundtrackistanbul</p>
+            <!-- <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>  -->
+        </footer>
+    </div>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
